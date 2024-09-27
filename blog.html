@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="mb-8">
+        <div class="h-24 w-full bg-[#F9F7F3] flex items-center justify-around">
+            <div>
+                <button id="go-to-home" class="bg-[#B4F461] px-8 py-3 rounded-lg text-black font-semibold">Home</button>
+            </div>
+            <div class="lg:hidden">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="hidden lg:flex items-center">
+                <div class="mr-4">
+                    <img src="assets/logo.png" alt="">
+                </div>
+                <div class="font-semibold">Donate Bangladesh</div>
+            </div>
+            <div class="flex items-center">
+                <div class="mr-3">
+                    <img src="assets/coin.png" alt="">
+                </div>
+                <div class="mr-1 font-medium">5500</div>
+                <div class="font-medium"">BDT</div>
+            </div>
+        </div>
+
+        <div class="flex justify-center mt-14 gap-4">
+            <button class="bg-[#B4F461] px-8 py-3 rounded-lg text-black font-semibold ">Donation</button>
+            <button class="bg-white px-8 py-3 rounded-lg text-black font-semibold border-2 border-gray-300">History</button>
+        </div>
+    </header>
+
+    <main class="w-11/12 mx-auto">
+        <div class="mb-8">
+            <h1 class="font-extrabold text-4xl">Important FAQ</h1>
+        </div>
+        <div class="space-y-3">
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                <div class="collapse-content">
+                  <p>A link between JS and HTML. JS considers HTML to be an object of JS and manupulates that way</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?
+                </div>
+                <div class="collapse-content">
+                  <p>We can select any element from the DOM using their tag name, class name or Id.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">What is Event delegation in the context of the DOM, and why is it helpful?</div>
+                <div class="collapse-content">
+                  <p>Event delegation is a technique in the DOM where a single event listener is attached to a parent element to manage events on its child elements</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How do you manupulate an element's attributes and styles using the DOM?</div>
+                <div class="collapse-content">
+                  <p>We can manipulate an element's attributes using setAttribute() and styles via the style property in the DOM.</p>
+                </div>
+              </div>
+        </div>
+    </main>
+    
+    <script src="JS Files/common.js"></script>
+</body>
+</html>
