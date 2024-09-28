@@ -99,9 +99,13 @@ document.getElementById('donate-flood').addEventListener('click', function() {
 document.getElementById('btn-history').addEventListener('click', function() {
     document.getElementById('history-page').classList.remove('hidden');
     document.getElementById('donation-page').classList.add('hidden');
+    document.getElementById('btn-history').style.backgroundColor = "#B4F461";
+    document.getElementById('btn-donation').style.backgroundColor = "white";
 });
 
 document.getElementById('btn-donation').addEventListener('click', function() {
     document.getElementById('donation-page').classList.remove('hidden');
     document.getElementById('history-page').classList.add('hidden');
+    document.getElementById('btn-donation').style.backgroundColor = "#B4F461";
+    document.getElementById('btn-history').style.backgroundColor = "white";
 });
