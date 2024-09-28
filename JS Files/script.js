@@ -1,6 +1,6 @@
 document.getElementById('go-to-blog')
     .addEventListener('click', function() {
-        window.location.href = '/blog.html';
+        window.location.href = 'blog.html';
     });
 
 document.getElementById('donate-quota').addEventListener('click', function() {
