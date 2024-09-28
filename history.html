@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="fixed sticky top-0 bg-white opacity-95 pb-4">
+        <div class="h-24 w-full bg-[#F9F7F3] flex items-center justify-around">
+            <div>
+                <button id="go-to-blog" class="bg-[#B4F461] px-8 py-3 rounded-lg text-black font-semibold">Blog</button>
+            </div>
+            <div class="lg:hidden">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="hidden lg:flex items-center">
+                <div class="mr-4">
+                    <img src="assets/logo.png" alt="">
+                </div>
+                <div class="font-semibold">Donate Bangladesh</div>
+            </div>
+            <div class="flex items-center">
+                <div class="mr-2">
+                    <img src="assets/coin.png" alt="">
+                </div>
+                <div id="wallet" class="mr-1 font-medium">158000</div>
+                <div class="font-medium"">BDT</div>
+            </div>
+        </div>
+
+        <div class="flex justify-center mt-14 gap-4">
+            <button class="bg-[#B4F461] px-8 py-3 rounded-lg text-black font-semibold ">Donation</button>
+            <button class="bg-white px-8 py-3 rounded-lg text-black font-semibold border-2 border-gray-300">History</button>
+        </div>
+    </header>
+
+    <main id="transaction-history">
+        <!-- <div id="transaction-history" class="w-4/5 mx-auto my-5 p-8 rounded-lg border-2 border-gray-300 space-y-5">
+            <p id="donationDetails" class="font-bold text-xl">Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</p>
+            <p id="donationTimigs" class="font-light text-base">Date : </p>
+        </div> -->
+    </main>
+    <script src="JS Files/common.js"></script>
+</body>
+</html>
